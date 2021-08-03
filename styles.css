@@ -1,0 +1,95 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font: 76% arial,sans-serif;
+    /* text-align:center; */
+   
+}
+
+
+p{
+    margin:0 10px 10px
+}
+
+
+/* HEADER */
+
+div#header{
+    background-color:white;
+    text-align: center;
+}
+div#header h1{
+    height:80px;
+    line-height:80px;
+    margin:0;
+    padding-left:10px;
+} 
+
+#header h1{
+    color:rgb(21, 122, 156);
+}
+
+
+/* LEFT SIDE EXTRA */
+
+
+.new{
+    text-align: center;
+    background-color: white;
+    height: 25vh;
+    margin-left: 2rem;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+
+/* CENTER CONTENT */
+
+.center{
+    background-color: white;
+    /* border: 3px solid black; */
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* rIGHT SIDE NAVIGATION */
+
+.old{
+    text-align: center;
+    background-color: white;
+    /* border: 1px solid black; */
+    height: 32vh;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+.foot{
+    background-color: black;
+}
+
+
+a:link {
+    font-weight: bold;
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(96, 65, 131);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(161, 161, 59);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
